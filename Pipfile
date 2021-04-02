@@ -16,6 +16,9 @@ django-heroku = "*"
 django-rest-api = "*"
 postgres = "*"
 dj-database-url = "*"
+psycopg2 = "*"
+whitenoise = "*"
+heroku = "*"
 
 [dev-packages]
 

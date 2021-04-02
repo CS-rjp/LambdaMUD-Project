@@ -11,7 +11,7 @@ import json
 # instantiate pusher
 # pusher = Pusher(app_id=config('PUSHER_APP_ID'), key=config('PUSHER_KEY'), secret=config('PUSHER_SECRET'), cluster=config('PUSHER_CLUSTER'))
 
-# @csrf_exempt # after getting key comment out again
+@csrf_exempt # after getting key comment out again
 @api_view(["GET"])
 def initialize(request):
     user = request.user
